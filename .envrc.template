@@ -1,0 +1,97 @@
+### fastlane register_device
+
+#
+# 開発端末として登録するデバイス名
+#
+export REGISTER_DEVICE_NAME=""
+
+#
+# 開発端末として登録するデバイスのUDID
+#
+export REGISTER_DEVICE_ID=""
+
+### fastlane match 実行時に使われるパラメータ郡
+
+#
+# Appleアカウントのアクセスで使われるパスワード
+#
+export MATCH_PASSWORD=""
+
+#
+# Gitをストレージとして証明書を管理する場合に指定するアクセスURL
+#
+export MATCH_GIT_REPOSITORY=""
+
+#
+# 実行の用途に合わせたオペレーションを行う目的に合わせた種別を指定する
+# - development
+#     - xxxx
+# - appstore
+#     - xxxx
+# - adhoc
+#     - xxxx
+# - enterprise
+#     - xxxx
+#
+export MATCH_OPERATION_TYPE=""
+
+#
+# 証明書の削除用途に合わせた種別を指定する
+# - development
+#     - xxxx
+# - distribution
+#     - xxxx
+#
+export MATCH_DELETE_TYPE=""
+
+### XcodeGen
+
+#
+# Xcode上に表示される所属名
+# e.g. "SomeCompany, Inc."
+#
+export XCODE_ORGANIZATION_NAME=""
+
+#
+# ビルド対象とするための最低SDKバージョン
+#
+export XCODE_DEPLOYMENT_TARGET=""
+
+#
+# Xcodeでの表示される環境名
+#
+export XCODE_ENVIRONMENT_NAME=""
+
+### Other
+
+#
+# bundle identifier
+# e.g. com.company.application
+#
+export APP_ID=""
+
+#
+# ライセンス契約を行っているAppleアカウント ID（メールアドレス）
+# e.g. hogehoge@example.com
+#
+export APPLE_ID_MAIL_ADDRESS=""
+
+#
+# ライセンス契約Appleアカウントに割り振られているApp Store Connect ID
+#
+export APPLE_ITC_TEAM_ID=""
+
+#
+# ライセンス契約Appleアカウントに割り振られているチームID
+#
+export APPLE_TEAM_ID=""
+
+#
+# アプリのID登録時に使われる表示名、実際にアプリで表示される名前ではない
+#
+export APP_NAME=""
+
+#
+# アプリの表示名
+#
+export APP_DISPLAY_NAME=""
