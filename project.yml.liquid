@@ -47,6 +47,8 @@ targets:
     type: application
     platform: iOS
     deploymentTarget: {{ XCODE_DEPLOYMENT_TARGET }}
+    attributes:
+      ProvisioningStyle: Manual
     sources:
       - path: Sources
         name: App
@@ -70,6 +72,7 @@ targets:
           ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
           BUNDLE_DISPLAY_NAME: {{ APP_DISPLAY_NAME }}
           PRODUCT_BUNDLE_IDENTIFIER: {{ APP_ID }}
+          PROVISIONING_PROFILE_SPECIFIER: match {{ XCODE_ENVIRONMENT_NAME }} {{ APP_ID }}
         {{ XCODE_ENVIRONMENT_NAME }} Release: *develop_config
 
     info:
