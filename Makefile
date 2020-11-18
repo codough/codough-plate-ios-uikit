@@ -21,6 +21,11 @@ setup-node-tools:
 
 bootstrap: setup register-devices match signing
 
+### build
+
+build:
+	bundle exec fastlane gym -s "App $(XCODE_ENVIRONMENT_NAME)"
+
 ### test
 
 test:

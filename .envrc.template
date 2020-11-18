@@ -36,6 +36,19 @@ export MATCH_GIT_REPOSITORY=""
 export MATCH_OPERATION_TYPE=""
 
 #
+# 証明書の利用用途に合わせた種別を指定する
+# - Development
+#     - xxxx
+# - AppStore
+#     - xxxx
+# - adhoc
+#     - xxxx
+# - enterprise
+#     - xxxx
+#
+export MATCH_CERTIFICATION_TYPE_NAME="AppStore"
+
+#
 # 証明書の削除用途に合わせた種別を指定する
 # - development
 #     - xxxx
