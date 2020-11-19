@@ -46,7 +46,7 @@ export MATCH_OPERATION_TYPE=""
 # - enterprise
 #     - xxxx
 #
-export MATCH_CERTIFICATION_TYPE_NAME=""
+export MATCH_CERTIFICATION_TYPE_NAME="AppStore"
 
 #
 # 証明書の削除用途に合わせた種別を指定する
