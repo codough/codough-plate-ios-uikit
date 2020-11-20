@@ -5,7 +5,7 @@
 .envrc
 fastlane/devices.txt
 .mint/
-#App.xcodeproj/
+App.xcodeproj/
 App.xcworkspace/
 project.yml
 Podfile.lock
