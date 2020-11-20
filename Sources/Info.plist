@@ -35,6 +35,8 @@
 	</array>
 	<key>CFBundleVersion</key>
 	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>ENVIRONMENT_NAME</key>
+	<string>Staging</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>SMAuthorizedClients</key>

@@ -13,6 +13,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        label.text = label.text?.appending("\n(\(environmentName))")
+        label.text = label.text?.appending(
+            "\n(\(Environment.properties(forKey: "ENVIRONMENT_NAME")))")
     }
 }
