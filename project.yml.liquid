@@ -76,6 +76,7 @@ targets:
         DEBUG_INFORMATION_FORMAT: dwarf-with-dsym
         MARKETING_VERSION: 1.0
         CURRENT_PROJECT_VERSION: 46
+        XCODE_ENVIRONMENT_NAME: {{ XCODE_ENVIRONMENT_NAME }}
         OTHER_LDFLAGS:
           - $(inherited)
           - $(OTHER_LDFLAGS)
@@ -95,7 +96,7 @@ targets:
       properties:
         API_BASE_PATH: $(API_BASE_PATH)
         WEB_BASE_PATH: $(WEB_BASE_PATH)
-        ENVIRONMENT_NAME: {{ XCODE_ENVIRONMENT_NAME }}
+        ENVIRONMENT_NAME: $(XCODE_ENVIRONMENT_NAME)
         STRIPE_API_KEY: $(STRIPE_API_KEY)
         CFBundleDisplayName: {{ APP_DISPLAY_NAME }}
         CFBundleShortVersionString: "$(MARKETING_VERSION)"
